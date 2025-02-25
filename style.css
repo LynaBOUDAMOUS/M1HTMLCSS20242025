@@ -15,3 +15,28 @@ header {
     color: #217c89; /*  pour colorer le texte(mon ) */
     
 }
+/* motifer tout les h1 dans mon header  */
+header h1 { 
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+/* motifer les nav de mon header */
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+header nav a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #217c89;
+    border: #fff 1px solid;
+    border-radius: 10px;
+    width: 20%;
+    text-align: center;
+    padding: 15px 0 px;
+    box-shadow: 4px 4px rgba(170, 207, 212, 0.6);
+    cursor: pointer;
+}
