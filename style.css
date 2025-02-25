@@ -2,3 +2,16 @@ body {
     margin: auto;
     color: white;
 }
+header {
+    display: flex;
+     justify-content: space-between; /* aliger le contenu à droite */
+     align-items: center; /* aligner le contenu au centre */
+     background: radial-gradient(circle,
+     #217c89,#165e69, #0d434b, #062620);
+     padding: 5px 50px;
+}
+
+.coleur {
+    color: #217c89; /*  pour colorer le texte(mon ) */
+    
+}
